@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bgimg"
+        android:src="@drawable/lighthouse"
+        android:scaleType="centerCrop"/>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/girlimg"
+        android:src="@drawable/anchor"
+        android:scaleType="center"
+        android:layout_marginTop="-500dp"
+        android:layout_marginLeft="80dp"/>
+
+
+    <com.sample.tringappsadmin.imagereplica.ViewClass
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-290dp"
+        custom:userhint="Username"
+        android:inputType="text"
+        custom:icon="@drawable/image_replica_usericon"/>
+
+    <com.sample.tringappsadmin.imagereplica.ViewClass
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="-390dp"
+        custom:userhint="Password"
+        android:inputType="textPassword"
+        custom:icon="@drawable/imgpwdicon"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="-590dp"
+        android:id="@+id/button"
+        android:background="@drawable/button"
+        android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Create Account"
+            android:layout_marginTop="600dp"
+            android:layout_marginBottom="-590dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Need help?"
+            android:layout_marginTop="545dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="250dp"/>
+
+</LinearLayout>
+
+
+
